@@ -36,7 +36,8 @@ end
 kesha
 end
 
-def find_a 
+def find_a(names)
+  names
   
   
     
