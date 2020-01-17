@@ -44,8 +44,9 @@ def sum_array(array)
   array.inject{|sum, n| sum + n}
 end
 
-  def add_s(names)
-    array.each_with_index.collect do |string, index|
+things = ["hand","feet", "knee", "table"]
+  def add_s
+    things.each_with_index.collect do |string, index|
     if index == 1
       string
     else
