@@ -31,6 +31,7 @@ def kesha_maker(names)
   names.each do |word|
     word_array = word.split ""
     word_array[2] = "$"
+    kesha << word_array.join
   
   
     
