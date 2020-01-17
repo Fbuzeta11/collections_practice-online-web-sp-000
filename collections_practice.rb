@@ -29,6 +29,7 @@ end
 def kesha_maker(names)
   kesha =[]
   names.each do |word|
+    
   
   
     
