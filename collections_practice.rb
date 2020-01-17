@@ -41,7 +41,7 @@ def find_a(names)
 end
 
 def sum_array(array)
-  array.injects{
+  array.injects{|sum, n| 
 end
 
   
