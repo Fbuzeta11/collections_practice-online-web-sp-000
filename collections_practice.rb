@@ -37,7 +37,7 @@ kesha
 end
 
 def find_a(names)
-  names
+  names.select 
   
   
     
