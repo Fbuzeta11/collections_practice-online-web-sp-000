@@ -38,6 +38,7 @@ end
 
 def find_a(names)
   names.select{|string| string.start_with?("a")}
+end
   
   
     
