@@ -45,7 +45,7 @@ def sum_array(array)
 end
 
 things = ["hand","feet", "knee", "table"]
-  def add_s
+  def add_s(things)
     things.each_with_index.collect do |string, index|
     if index == 1
       string
