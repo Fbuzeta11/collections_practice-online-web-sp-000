@@ -30,7 +30,7 @@ def kesha_maker(names)
   kesha =[]
   names.each do |word|
     word_array = word.split ""
-    word_array =
+    word_array[2] = "$"
   
   
     
